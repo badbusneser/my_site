@@ -2,11 +2,18 @@
     margin: 0;
 }
 
-body {
-    background-color: rgb(106, 106, 106);
+body{
+
+  background-color: #efefef;
 
 }
 
+.container{
+
+  margin: 0 auto;
+  width: 1140px;
+
+}
 
 .first-screen{
     background: url('Main_bg.jpg') center center / cover;
@@ -26,6 +33,7 @@ body {
 }
   
   h1{
+    text-align: center;
     color: #F9BF3B;
     font-size: 41px;
     font-weight: 900;
@@ -33,7 +41,8 @@ body {
   }
   
   
-  h2.a {
+  h2.Its_simple {
+    text-align: center;
     color: #fff;
     font-size: 80px;
     font-weight: 900;
@@ -41,12 +50,14 @@ body {
   
   
   h2.class {
+    text-align: center;
     color: #F9BF3B;
     font-size: 41px;
     font-weight: 900;
   }
   
   p.p {
+    text-align: center;
     color: #fff;
     font-size: 21px;
     font-weight: 500;
@@ -56,14 +67,61 @@ body {
       font-weight: 900;
   }
   
+  button{
+    display: block;
+    size: 20px;
+    margin: 20px auto;
+    background-color: #fc9002;
+  }
+
   div.vodka {
-    color: #252525;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
     font-size: 15px;
     font-weight: 500;
   }
   
+  img.learn_more_imagine{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
   
+  section.intensive{
+    
+    background-color: #efefef;
+
+  }
+
+  
+
+  h2.intensive__title{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .divider{
+    background: #F9BF3B;
+    
+    width: 220px;
+    height: 7px;
+    
+    margin: 0 auto;
+  
+  
+  }
+
+
   h3.idk {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: #252525;
     font-size: 30px;
     font-weight: 500;
@@ -107,7 +165,7 @@ body {
     font-weight: 300;
   }
   
-  span.b {
+  span.Online_radio {
     color: #000000;
     font-size: 16px;
     font-weight: 500;
@@ -181,4 +239,9 @@ body {
     color: #000000;
     font-size: 23px;
     font-weight: 500;
+  }
+
+
+  .intensive-items__img{
+    
   }
